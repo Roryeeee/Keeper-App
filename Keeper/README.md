@@ -1,8 +1,8 @@
-# React + Vite
+This Project is one of my first web apps that i have taken the initiative to finish:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+index.html - for the base html template
+styles.css -  for the styling of the whole website
+main.jsx - main javascript pivot point
+App.jsx - for connecting all the major parts and proving functionality
+CreateArea.jsx - for creating tasks
+Note.jsx - contains code to render the notes after adding
