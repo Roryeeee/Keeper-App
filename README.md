@@ -4,7 +4,7 @@ Keeper is a React-based application designed to help users organize and manage t
 
 ---
 
-## Features
+## Intended Features
 
 - **Create Notes**: Add new notes with titles and descriptions.
 - **Edit Notes**: Update existing notes with ease.
