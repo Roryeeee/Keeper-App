@@ -17,10 +17,9 @@ Keeper is a React-based application designed to help users organize and manage t
 ## Technologies Used
 
 - **Frontend**: React.js
-- **Styling**: CSS (or Tailwind CSS, Material-UI, etc.)
-- **State Management**: React Hooks (useState, useEffect) or Context API
-- **Routing**: React Router (if applicable)
-- **Build Tool**: Vite or Create React App
+- **Styling**: CSS, Material-UI
+- **State Management**: React Hooks (useState, useEffect)
+- **Build Tool**: Vite React App
 - **Version Control**: Git and GitHub
 
 ---
