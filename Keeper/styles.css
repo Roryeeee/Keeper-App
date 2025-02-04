@@ -156,7 +156,7 @@
     margin-bottom: 10px;
     white-space: pre-wrap;
     word-wrap: break-word;
-    font-weight: 400;
+    font-weight: 500;
     width: 185px;
     resize: none;
   }
@@ -166,7 +166,8 @@
   outline: none;             
   border: none;  
   box-shadow: none; 
-  transition: all 0.2s ease;   
+  transition: all 0.2s ease;
+  font-weight: 400;   
 }
   
   
