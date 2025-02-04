@@ -5,7 +5,6 @@ import { Fab, Zoom } from "@mui/material";
 function CreateArea(props) {
   const [isExpanded, setExpanded] = useState(false);
   const formRef = useRef(null); // Reference to the form
-  const titleInputRef = useRef(null); // Reference to the title input
 
   const [note, setNote] = useState({
     title: "",
@@ -28,9 +27,6 @@ function CreateArea(props) {
 
   function expand() {
     setExpanded(true);
-    setTimeout(() => {
-      titleInputRef.current?.focus(); // Focus on title input after expansion
-    }, 0);
   }
 
   useEffect(() => {
@@ -58,7 +54,6 @@ function CreateArea(props) {
             onChange={handleChange}
             value={note.title}
             placeholder="Title"
-            ref={titleInputRef} // Attach ref to title input
           />
         )}
 
