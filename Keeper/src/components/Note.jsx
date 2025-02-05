@@ -4,11 +4,13 @@ import EditIcon from "@mui/icons-material/Edit";
 import { Fab, Zoom } from "@mui/material";
 
 function Note(props) {
+  //State for Editing the note
   const [isEditing, setIsEditing] = useState(false);
   const [editedNote, setEditedNote] = useState({
     title: props.title,
     content: props.content
   });
+  //States for the Conditional rendering of the buttons
   const [isMouseOver, setMouseOver] = useState(false);
   const [isMouseO, setMouseO] = useState(false);
   const [isMousO, setMousO] = useState(false);
